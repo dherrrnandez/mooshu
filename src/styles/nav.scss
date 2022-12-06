@@ -1,0 +1,19 @@
+@use "./utils" as *;
+
+* {
+    outline: 1px solid red;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    font-size: $text;
+}
+
+#logo {
+    margin-right: 2rem;
+    font-size: $logo;
+    font-weight: bold;
+    color: $accent;
+}
